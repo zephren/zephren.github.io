@@ -1,0 +1,18 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gitbook build ./",
+    "server": "python -m SimpleHTTPServer 8000",
+    "open-lin": "chromium-browser 'http://localhost:8000/_book/index.html'",
+    "open-mac": "open 'http://localhost:8000/_book/index.html'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gitbook-plugin-expandable-chapters": "^0.2.0",
+    "gitbook-plugin-js-console": "^1.4.0"
+  }
+}

@@ -1,0 +1,631 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>Making Decisions · GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.2">
+        
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="debugging.html" />
+    
+    
+    <link rel="prev" href="everything-is-a-value.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    First Steps
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" data-path="getting-started.html">
+            
+                <a href="getting-started.html">
+            
+                    
+                    Getting Started
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.2" data-path="the-basics.html">
+            
+                <a href="the-basics.html">
+            
+                    
+                    The Basics
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.3" data-path="comments.html">
+            
+                <a href="comments.html">
+            
+                    
+                    Comments
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.4" data-path="everything-is-a-value.html">
+            
+                <a href="everything-is-a-value.html">
+            
+                    
+                    Everything is a Value
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.5" data-path="making-decisions.html">
+            
+                <a href="making-decisions.html">
+            
+                    
+                    Making Decisions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2.6" data-path="debugging.html">
+            
+                <a href="debugging.html">
+            
+                    
+                    Debugging
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" data-path="../intermediate-topics.html">
+            
+                <a href="../intermediate-topics.html">
+            
+                    
+                    Intermediate Topics
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../intermediate-topics/arrays.html">
+            
+                <a href="../intermediate-topics/arrays.html">
+            
+                    
+                    Arrays
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../intermediate-topics/objects.html">
+            
+                <a href="../intermediate-topics/objects.html">
+            
+                    
+                    Objects
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../intermediate-topics/loops.html">
+            
+                <a href="../intermediate-topics/loops.html">
+            
+                    
+                    Loops
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.4" data-path="../intermediate-topics/functions.html">
+            
+                <a href="../intermediate-topics/functions.html">
+            
+                    
+                    Functions
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.5" data-path="../intermediate-topics/scope.html">
+            
+                <a href="../intermediate-topics/scope.html">
+            
+                    
+                    Scope
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.6" data-path="../intermediate-topics/special-values.html">
+            
+                <a href="../intermediate-topics/special-values.html">
+            
+                    
+                    Special Values
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.7" data-path="../intermediate-topics/everything-is-a-value-redux.html">
+            
+                <a href="../intermediate-topics/everything-is-a-value-redux.html">
+            
+                    
+                    Everything is a Value Redux
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" data-path="../appendix.md">
+            
+                <span>
+            
+                    
+                    Appendix
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../appendix/glossary.html">
+            
+                <a href="../appendix/glossary.html">
+            
+                    
+                    Glossary
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >Making Decisions</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="making-decisions">Making Decisions</h1>
+<p>Up to this point you should be able to write a program that has some variables and can do some math. That is a great starting point, but honestly it&apos;s probably not all that interesting yet. As humans, we make many decisions every day, and while not always rational they&apos;re most likely founded on some amount of information. Almost all programs make decisions too; however, they are founded entirely on fact. And given the same information, the exact same decision will be made every single time (sadly the same cannot be said for us humans).</p>
+<h2 id="what-if">What If...</h2>
+<p>Every decision that a computer makes is based on what is called a <strong>statement</strong> and whether that statement is <strong>true</strong>, or whether it is <strong>false</strong>. Everything that is a value in JS can also be considered a true or a false value. Later in this section I&apos;ve listed out all the types of values and their <a href="../appendix/glossary.html#truthiness">truthiness</a>. The most common way for a program to make a decision is to use the <strong>if</strong> statement:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">if</span> (&lt;statement&gt;) {
+    // Then...
+    &lt;more_code&gt;
+}
+</code></pre>
+<p>The structure of an if statement introduces the use of an opening ( <strong>{</strong> ) and closing ( <strong>}</strong> ) curly bracket. For the sake of not giving you misinformation, these are not required when used under certain conditions (which we wont get into right now). However, for the purposes of simplicity, think of them as something you must always have when writing an if statement. That way the main structure of your if statement will always be the same. What the curly braces do is allow you to tell JS that the section of code inside them (<more_code>) is only to be executed when the <statement> is true. I don&apos;t have a good metaphor for if statements other than they seem to line up with how we as humans can perform actions based on objectively making a decision. For example:</statement></more_code></p>
+<ul>
+<li><strong>if</strong> the baby is crying, <strong>then</strong> try to comfort the baby.</li>
+<li><strong>if</strong> the house is on fire, <strong>then</strong> get out of the freaking house.</li>
+<li><strong>if</strong> the car won&apos;t start, <strong>then</strong> check whether it has any gas.</li>
+</ul>
+<p>I&apos;ll write these examples out in a moment. But first, here is some code where we are just using the the literal boolean value to show what happens when the statement is true or false:</p>
+<p>Something that evaluates to <strong>true</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">if</span> (<span class="hljs-literal">true</span>) {
+    <span class="hljs-comment">// The code inside the brackets will execute</span>
+}
+
+<span class="hljs-comment">// More code, always executed</span>
+</code></pre>
+<p>Something that evaluates to <strong>false</strong></p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">if</span> (<span class="hljs-literal">false</span>) {
+    <span class="hljs-comment">// The code inside the brackets will NOT execute</span>
+}
+
+<span class="hljs-comment">// More code, always executed</span>
+</code></pre>
+<p>Other examples:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> theBabyIsCrying = <span class="hljs-literal">true</span>;
+<span class="hljs-keyword">if</span> (theBabyIsCrying) {
+    <span class="hljs-comment">// Do something to comfort the baby</span>
+}
+</code></pre>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> theHouseIsOnFire = <span class="hljs-literal">true</span>;
+<span class="hljs-keyword">if</span> (theHouseIsOnFire) {
+    <span class="hljs-comment">// Get out of the freaking house</span>
+}
+</code></pre>
+<p>Now is probably a good time to introduce the <strong>not</strong> operator which is just an exclamation point <strong>!</strong>. This just takes the opposite of what ever it is next to. So a <strong>true</strong> value becomes <strong>false</strong> and a <strong>false</strong> value becomes <strong>true</strong>. The not operator always directly precedes whatever it is you want to take the opposite of. So, using the above examples:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> theBabyIsCrying = <span class="hljs-literal">false</span>;
+<span class="hljs-keyword">if</span> (!theBabyIsCrying) {
+    <span class="hljs-comment">// This is good, you are not distracted by the baby</span>
+    <span class="hljs-comment">// Go about your business</span>
+}
+</code></pre>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> theHouseIsOnFire = <span class="hljs-literal">false</span>;
+<span class="hljs-keyword">if</span> (!theHouseIsOnFire) {
+    <span class="hljs-comment">// This is pretty normal</span>
+    <span class="hljs-comment">// Not a whole lot to do here</span>
+}
+</code></pre>
+<p>To illustrate the car starting example we need to introduce the <strong>else</strong> statement. The code contained in the brackets of the else statement will get executed if the if statement evaluates to false.</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">if</span> (&lt;statement&gt;) {
+    // Then...
+    &lt;more_code&gt;
+} else {
+    // Else
+    &lt;some_other_code&gt;
+}
+</code></pre>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> theCarStarts = <span class="hljs-literal">false</span>;
+<span class="hljs-keyword">if</span> (theCarStarts) {
+    <span class="hljs-comment">// Yay! you can drive wherever it is you wanted to go</span>
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-comment">// Check to see if it has any gas</span>
+}
+</code></pre>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> theCarStarts = <span class="hljs-literal">true</span>;
+<span class="hljs-keyword">if</span> (!theCarStarts) {
+    <span class="hljs-comment">// Check to see if it has any gas</span>
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-comment">// Yay! you can drive wherever it is you wanted to go</span>
+}
+</code></pre>
+<p>The above is the if else statement. From here on I will refer to any combination of <strong>if</strong>, <strong>else</strong>, and <strong>else if</strong> (which you&apos;ll see next) generically as an &quot;if statement&quot;.</p>
+<p>The last thing to add is the <strong>else if</strong> statement. Let me preface talking about this by giving you some rules for if statements that are pretty simple:</p>
+<p>1) There must be one, and only one, &quot;if&quot; in an if statement
+2) There can optionally be a single &quot;else&quot; at the end of in an if statement
+3) There can be zero or more &quot;else if&quot; statements preceding an &quot;if&quot; statement in an if statement</p>
+<p>The <strong>else if</strong> statement lets you add additional things to check should the original if statement evaluate to false. Since you can have multiple else ifs, think of them as being checked in the order in which you have them listed, whichever one evaluates to true first (if any of them) will get its code between its brackets executed.</p>
+<p>I&apos;ll give a few examples to hopefully make this more clear:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">if</span> (<span class="hljs-literal">true</span>) {
+    <span class="hljs-comment">// Executes</span>
+}
+</code></pre>
+<pre><code class="lang-javascript"><span class="hljs-keyword">if</span> (<span class="hljs-literal">true</span>) {
+    <span class="hljs-comment">// Executed</span>
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-comment">// Not executed</span>
+}
+</code></pre>
+<pre><code class="lang-javascript"><span class="hljs-keyword">if</span> (<span class="hljs-literal">false</span>) {
+    <span class="hljs-comment">// Not executed</span>
+} <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (<span class="hljs-literal">true</span>) {
+    <span class="hljs-comment">// Executed</span>
+}
+</code></pre>
+<pre><code class="lang-javascript"><span class="hljs-keyword">if</span> (<span class="hljs-literal">false</span>) {
+    <span class="hljs-comment">// Not executed</span>
+} <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (<span class="hljs-literal">false</span>) {
+    <span class="hljs-comment">// Not executed</span>
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-comment">// Executed</span>
+}
+</code></pre>
+<pre><code class="lang-javascript"><span class="hljs-keyword">if</span> (<span class="hljs-literal">false</span>) {
+    <span class="hljs-comment">// Not executed</span>
+} <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (<span class="hljs-literal">false</span>) {
+    <span class="hljs-comment">// Not executed</span>
+} <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (<span class="hljs-literal">false</span>) {
+    <span class="hljs-comment">// Not executed</span>
+} <span class="hljs-keyword">else</span> <span class="hljs-keyword">if</span> (<span class="hljs-literal">true</span>) {
+    <span class="hljs-comment">// Executed</span>
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-comment">// Not executed</span>
+}
+</code></pre>
+<h2 id="nesting">Nesting</h2>
+<p>The last thing I want to give you is the ability to do what is called <a href="../appendix/glossary.html#nesting">nesting</a>. This generally refers to putting code that uses brackets (like if statements) inside some other code that uses brackets (again, like if statements). It&apos;s much easier shown than explained with words:</p>
+<pre><code class="lang-javascript"><span class="hljs-keyword">if</span> (<span class="hljs-literal">true</span>) {
+    <span class="hljs-comment">// The following code is executed</span>
+    <span class="hljs-keyword">if</span> (<span class="hljs-literal">false</span>) {
+        <span class="hljs-comment">// Not executed</span>
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-comment">// Executed</span>
+        <span class="hljs-comment">// We cold keep going with the nesting if we wanted to have more conditions</span>
+    }
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-comment">// Not executed</span>
+}
+</code></pre>
+<pre><code class="lang-javascript"><span class="hljs-keyword">var</span> theHouseIsOnFire = <span class="hljs-literal">true</span>
+<span class="hljs-keyword">var</span> theDoorsAreLocked = <span class="hljs-literal">false</span>
+<span class="hljs-keyword">if</span> (theHouseIsOnFire) { <span class="hljs-comment">// This is true</span>
+    <span class="hljs-comment">// Oh no, we&apos;d better get out</span>
+    <span class="hljs-keyword">if</span> (theDoorsAreLocked) { <span class="hljs-comment">// This is false</span>
+        <span class="hljs-comment">// If this were true, hopefully we could unlock the doors</span>
+    } <span class="hljs-keyword">else</span> {
+        <span class="hljs-comment">// Phew, we&apos;re able to easily get out of the house</span>
+    }
+} <span class="hljs-keyword">else</span> {
+    <span class="hljs-comment">// This is just a normal day</span>
+}
+</code></pre>
+<h2 id="but-wait-theres-more">But Wait, There&apos;s More</h2>
+<p>This should get you going for now. More advanced and concise decision making will be covered in the intermediate topic. If the idea of not knowing the best way of doing something from the start concerns you, then I can offer this piece of advice:</p>
+<p><em>One of the best parts about programming is that if you have done something one way, and then learn a better way to do it, there is nothing stopping you from changing it.</em></p>
+<p>Depending on what you&apos;ve done, it may be more or less complicated to change it in the future, but that in and of it self is also part of the leaning process. Over time you will get better at writing code than can be updated, rewritten, and maintained.</p>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="everything-is-a-value.html" class="navigation navigation-prev " aria-label="Previous page: Everything is a Value">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="debugging.html" class="navigation navigation-next " aria-label="Next page: Debugging">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"Making Decisions","level":"1.2.5","depth":2,"next":{"title":"Debugging","level":"1.2.6","depth":2,"path":"book/first-steps/debugging.md","ref":"./book/first-steps/debugging.md","articles":[]},"previous":{"title":"Everything is a Value","level":"1.2.4","depth":2,"path":"book/first-steps/everything-is-a-value.md","ref":"./book/first-steps/everything-is-a-value.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["expandable-chapters","js-console"],"pluginsConfig":{"expandable-chapters":{},"js-console":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"book/first-steps/making-decisions.md","mtime":"2017-08-01T23:07:24.982Z","type":"markdown"},"gitbook":{"version":"3.2.2","time":"2017-08-05T01:56:53.952Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-js-console/console-ui.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
